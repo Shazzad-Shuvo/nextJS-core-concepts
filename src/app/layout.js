@@ -1,4 +1,5 @@
 import localFont from "next/font/local";
+// import {Doto} from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
@@ -13,7 +14,10 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-
+// const doto = Doto({
+//   subsets: ['latin'],
+//   weight: ["100", "400", "700"]
+// })
 
 export const metadata = {
   title: {
