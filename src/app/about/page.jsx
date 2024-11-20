@@ -20,7 +20,7 @@ export const metadata = {
 
 const AboutPage = async() => {
   // console.log(name);  //to check if error.jsx page works
-  const time = await getTime();
+  // const time = await getTime();
   return (
     <div className={`${styles.about_color} ${headland.className} min-h-screen px-12 py-24`}>
       <h6 >Welcome to ABOUT PAGE !!!</h6>
